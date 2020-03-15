@@ -29,4 +29,9 @@ public class Poligono extends Figura {
 	public double area() {
 		return base * altura;
 	}
+	
+	@Override
+	double perimetro() {
+		return (base * 2) + (altura * 2);
+	}
 }

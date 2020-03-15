@@ -29,4 +29,9 @@ public class Circulo extends Figura {
 	public double area() {
         return Math.PI * (this.raio * this.raio);
 	}
+	
+	@Override
+	double perimetro() {
+		return (2 * Math.PI) * this.raio;
+	}
 }
