@@ -31,7 +31,7 @@ public class Circulo extends Figura {
 	}
 	
 	@Override
-	double perimetro() {
+	public double perimetro() {
 		return (2 * Math.PI) * this.raio;
 	}
 }

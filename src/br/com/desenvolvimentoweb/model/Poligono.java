@@ -31,7 +31,7 @@ public class Poligono extends Figura {
 	}
 	
 	@Override
-	double perimetro() {
+	public double perimetro() {
 		return (base * 2) + (altura * 2);
 	}
 }
